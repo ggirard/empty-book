@@ -2,7 +2,7 @@
   <metadata>
     <dc:rights>Public domain</dc:rights>
     <dc:creator opf:file-as="Unknown, Author">Unknown Author</dc:creator>
-    <dc:title>My Untitled Book</dc:title>
+    <dc:title>My fist test book</dc:title>
     <dc:language xsi:type="dcterms:RFC4646">en</dc:language>
     <dc:date opf:event="publication">2013-10-08</dc:date>
   </metadata>
@@ -10,7 +10,5 @@
     <item href="mybook-nav.html" media-type="application/xhtml+xml" id="toc" properties="nav"/>
     <item href="module1.html" id="module1.html" media-type="application/xhtml+xml"/>
   </manifest>
-  <spine>
-    <itemref idref="module1.html" linear="yes"/>
-  </spine>
+  <spine><itemref xmlns="http://www.w3.org/1999/xhtml" idref="module1.html"></itemref></spine>
 </package>
